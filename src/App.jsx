@@ -55,9 +55,13 @@ function App() {
           </div>
           
           <div className="space-y-3 mt-6">
-            <button className="w-full bg-blue-600 text-white py-3.5 rounded-xl font-bold flex items-center justify-center gap-2 hover:bg-blue-500 transition-colors shadow-lg shadow-blue-600/20">
-              <FaDownload /> Download Resume
-            </button>
+            <a 
+  href="/TejaResume.pdf" 
+  download="Venkata_Teja_Resume.pdf"
+  className="w-full bg-blue-600 text-white py-3.5 rounded-xl font-bold flex items-center justify-center gap-2 hover:bg-blue-500 transition-colors shadow-lg shadow-blue-600/20"
+>
+  <FaDownload /> Download Resume
+</a>
             <div className="flex gap-3">
               <a href="https://www.linkedin.com/in/chennamsetti-venkatateja-7a21a7325" target="_blank" rel="noopener noreferrer" className="flex-1 bg-slate-700/50 py-3.5 rounded-xl flex items-center justify-center text-xl text-slate-300 hover:bg-[#0a66c2] hover:text-white hover:border-[#0a66c2] transition-all border border-slate-600">
                 <FaLinkedin />
