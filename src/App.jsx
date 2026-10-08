@@ -56,7 +56,7 @@ function App() {
           
           <div className="space-y-3 mt-6">
             <a 
-  href="/TejaResume.pdf" 
+  href="/VenkataTejaChennamsetti_ReactDev_Resume.pdf" 
   download="Venkata_Teja_Resume.pdf"
   className="w-full bg-blue-600 text-white py-3.5 rounded-xl font-bold flex items-center justify-center gap-2 hover:bg-blue-500 transition-colors shadow-lg shadow-blue-600/20"
 >
