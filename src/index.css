@@ -1,6 +1,5 @@
 @import "tailwindcss";
 
-/* Projects Auto Scroll Animation */
 @keyframes scroll {
   0% { transform: translateX(0); }
   100% { transform: translateX(-50%); }
@@ -9,10 +8,9 @@
 .animate-scroll {
   display: flex;
   width: max-content;
-  animation: scroll 25s linear infinite;
+  animation: scroll 35s linear infinite;
 }
 
-/* Mouse pettinappudu scroll aagipovadaniki */
 .animate-scroll:hover {
   animation-play-state: paused;
 }
