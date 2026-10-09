@@ -38,15 +38,15 @@ function App() {
         <div className="col-span-1 md:col-span-4 bg-[#FCFAF8] border border-[#E8E3D9] rounded-[2rem] p-6 md:p-8 flex flex-col justify-between shadow-xl shadow-[#D9CDB8]/30 relative overflow-hidden group">
           
           <div className="relative z-10">
-            <img 
+            {/* <img 
               src={profilePic} 
               alt="Venkata Teja" 
               onError={(e) => { e.target.src = "https://ui-avatars.com/api/?name=Venkata+Teja&background=9C6644&color=fff&size=256" }}
               className="w-20 h-20 md:w-24 md:h-24 rounded-2xl mb-6 object-cover border-4 border-[#F2EDE4] shadow-sm group-hover:scale-105 transition-transform duration-500" 
-            />
+            /> */}
             
             <h1 className="text-3xl md:text-4xl font-extrabold text-[#2D2A26] tracking-tight mb-3">
-              Chennamsetti V Teja
+              Chennamsetti Venkata Teja
             </h1>
             
             <div className="flex items-center gap-2 mb-6 text-xs md:text-sm font-bold text-[#9C6644] bg-[#F2EDE4] w-fit px-3 md:px-4 py-2 rounded-xl border border-[#E8E3D9]">
