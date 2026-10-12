@@ -12,14 +12,10 @@ export default defineConfig({
     tailwindcss(),
     VitePWA({
       registerType: 'prompt',
-      injectRegister: 'auto', // Idi add cheyi
+      injectRegister: 'auto',
       workbox: {
         globPatterns: ['**/*.{js,css,html,ico,png,svg}']
       },
-      devOptions: {
-        enabled: true,
-        type: 'module'
-      }
     })
   ],
 })

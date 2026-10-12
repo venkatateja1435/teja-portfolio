@@ -14,3 +14,16 @@
 .animate-scroll:hover {
   animation-play-state: paused;
 }
+
+@theme {
+  --animate-scroll: scroll 30s linear infinite;
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-50% - 0.75rem));
+    }
+  }
+}
