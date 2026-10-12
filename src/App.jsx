@@ -5,19 +5,19 @@ function App() {
   const projects = [
     {
       title: "Common Admission Portal (CAP)",
-      desc: "Unified state-level platform handling multi-step applications and huge traffic for AP entrance exams.",
+      desc: "A unified, state-level admission platform handling applications and processing for major entrance exams (EAPCET, ECET, ICET, PGCET, LAWCET) utilized by lakhs of students.",
       tech: ["React.js", "RBAC Auth", "Payment API"],
       link: "https://cap.apcfss.in"
     },
     {
       title: "JNB Nivas Management",
-      desc: "Centralized workflow system for AP residential schools to track lifecycle, diet, and biometrics.",
+      desc: "A centralized workflow management system tracking the lifecycle, biometric attendance, and daily operations (like Diet processing) for various AP residential schools.",
       tech: ["React.js", "JWT Auth", "Dynamic UI"],
       link: "https://nivas.apcfss.in"
     },
     {
       title: "AP Universities Recruitment",
-      desc: "End-to-end recruitment portals for AP universities with complex multi-step forms.",
+      desc: "End-to-end recruitment and admission portals for AP Universities and multiple residential societies including APSWREIS, BCREIS, Tribal, AP Model Schools, and KGBV",
       tech: ["React.js", "Redux", "REST APIs"],
       link: "https://apuniversitiesrecruitment.apcfss.in/"
     } 
