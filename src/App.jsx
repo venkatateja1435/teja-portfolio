@@ -40,12 +40,12 @@ function App() {
               <span>Software Engineer @ APCFSS</span>
             </div>
             <p className="text-[#7A756D] text-sm md:text-base leading-relaxed font-medium">
-              Frontend developer with ~4 years of experience building scalable e-governance platforms handling lakhs of concurrent users.
+              SOFTWARE ENGINEER Frontend Developer with ~4 years of hands-on experience in building scalable, secure, and high-performance web applications using React.js. Proven expertise in developing e-governance platforms handling lakhs of concurrent users. Specialized in complex form handling, state management, secure authentication flows, and dynamic reporting. Strong problem-solving skills with a track record of delivering end-to-end user interfaces for state-wide centralized portals.
             </p>
           </div>
           <div className="space-y-4 mt-8 relative z-10">
             <a href="/resume.pdf" download="Venkata_Teja_Resume.pdf" className="w-full bg-[#3A352F] text-[#F2EDE4] py-3.5 rounded-xl font-bold flex items-center justify-center gap-2 hover:bg-[#2D2A26] hover:shadow-lg hover:shadow-[#3A352F]/20 transition-all">
-              <FaDownload /> Download Resume
+              <FaDownload /> Download Resume V5
             </a>
             <div className="flex gap-4">
               <a href="https://www.linkedin.com/in/chennamsetti-venkatateja-7a21a7325" target="_blank" rel="noopener noreferrer" className="flex-1 bg-[#F2EDE4] py-3.5 rounded-xl flex items-center justify-center text-xl text-[#7A756D] hover:text-[#0a66c2] hover:bg-[#E8E3D9] hover:border-[#0a66c2]/30 transition-all border border-[#E8E3D9]">
