@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background matches Slate-900 -->
+  <rect width="512" height="512" rx="120" fill="#0f172a" />
+  
+  <!-- Outer Teal Border -->
+  <rect x="40" y="40" width="432" height="432" rx="90" fill="none" stroke="#5eead4" stroke-width="28" />
+  
+  <!-- VT Initials -->
+  <text 
+    x="256" 
+    y="350" 
+    font-family="system-ui, -apple-system, sans-serif" 
+    font-weight="900" 
+    font-size="240" 
+    fill="#5eead4" 
+    text-anchor="middle"
+    letter-spacing="-10"
+  >
+    VT
+  </text>
+</svg>
