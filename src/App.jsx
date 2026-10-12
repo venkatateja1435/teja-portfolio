@@ -112,19 +112,19 @@ function App() {
       title: "Common Admission Portal (CAP)",
       desc: "Unified state-level platform handling multi-step applications and huge traffic for AP entrance exams.",
       tech: ["React.js", "RBAC Auth", "Payment API"],
-      link: "#"
+      link: "https://cap.apcfss.in"
     },
     {
       title: "JNB Nivas Management",
       desc: "Centralized workflow system for AP residential schools to track lifecycle, diet, and biometrics.",
       tech: ["React.js", "JWT Auth", "Dynamic UI"],
-      link: "#"
+      link: "https://nivas.apcfss.in"
     },
     {
       title: "AP Universities Recruitment",
       desc: "End-to-end recruitment portals for AP universities with complex multi-step forms.",
       tech: ["React.js", "Redux", "REST APIs"],
-      link: "#"
+      link: "https://apuniversitiesrecruitment.apcfss.in/"
     } 
   ];
 
