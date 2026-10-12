@@ -1,4 +1,3 @@
-import React from 'react';
 import { useRegisterSW } from 'virtual:pwa-register/react';
 
 function UpdatePrompt() {
@@ -17,18 +16,21 @@ function UpdatePrompt() {
   if (!needRefresh) return null;
 
   return (
-    <div style={{
-      position: 'fixed', top: '20px', right: '20px', zIndex: 1000,
-      background: '#242424', color: 'white', padding: '16px',
-      borderRadius: '8px', boxShadow: '0 4px 6px rgba(0,0,0,0.1)',
-      display: 'flex', flexDirection: 'column', gap: '10px'
-    }}>
-      <p style={{ margin: 0 }}>New content available, click on reload button to update.</p>
-      <div style={{ display: 'flex', gap: '10px' }}>
-        <button onClick={() => updateServiceWorker(true)} style={{ background: '#646cff', color: 'white', border: 'none', padding: '8px 12px', borderRadius: '4px', cursor: 'pointer' }}>
+    <div className="fixed top-5 right-5 z-[1000] bg-[#2D2A26] text-[#F2EDE4] p-4 rounded-xl shadow-2xl shadow-black/20 flex flex-col gap-3 w-[300px] border border-[#7A756D]/30">
+      <p className="m-0 text-sm font-medium leading-relaxed">
+        New content available, click on reload button to update.
+      </p>
+      <div className="flex gap-3 mt-1">
+        <button 
+          onClick={() => updateServiceWorker(true)} 
+          className="flex-1 bg-[#9C6644] hover:bg-[#855537] text-white border-none py-2 px-4 rounded-lg cursor-pointer font-bold text-sm transition-colors shadow-md"
+        >
           Reload
         </button>
-        <button onClick={() => setNeedRefresh(false)} style={{ background: 'transparent', color: 'white', border: '1px solid white', padding: '8px 12px', borderRadius: '4px', cursor: 'pointer' }}>
+        <button 
+          onClick={() => setNeedRefresh(false)} 
+          className="flex-1 bg-transparent hover:bg-[#7A756D]/10 text-[#F2EDE4] border border-[#7A756D] py-2 px-4 rounded-lg cursor-pointer font-bold text-sm transition-colors"
+        >
           Close
         </button>
       </div>
