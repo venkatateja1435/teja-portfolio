@@ -18,7 +18,7 @@ function UpdatePrompt() {
 
   return (
     <div style={{
-      position: 'fixed', bottom: '20px', right: '20px', zIndex: 1000,
+      position: 'fixed', top: '20px', right: '20px', zIndex: 1000,
       background: '#242424', color: 'white', padding: '16px',
       borderRadius: '8px', boxShadow: '0 4px 6px rgba(0,0,0,0.1)',
       display: 'flex', flexDirection: 'column', gap: '10px'
